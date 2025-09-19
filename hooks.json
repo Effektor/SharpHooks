@@ -1,0 +1,14 @@
+{
+  "hooks": [
+    {
+      "path": "/webhook/github",
+      "script": "github-webhook.csx",
+      "description": "GitHub webhook handler"
+    },
+    {
+      "path": "/webhook/deploy",
+      "script": "deploy-webhook.csx",
+      "description": "Deployment webhook handler"
+    }
+  ]
+}

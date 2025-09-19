@@ -1,0 +1,24 @@
+# Exclude build artifacts and temporary files
+bin/
+obj/
+.vs/
+.vscode/
+
+# Exclude OS-specific files
+.DS_Store
+Thumbs.db
+
+# Exclude Git files
+.git/
+.gitignore
+
+# Exclude documentation files (except README for Docker builds)
+*.md
+!README.md
+
+# Exclude test files and results
+TestResults/
+*.trx
+
+# Exclude local development settings
+appsettings.Development.json
